@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMIcheck</string>
+    <!--Quotes to display in array-->
+    <string-array name="Squotes">
+        <item>The way to get started is to quit talking and begin doing. -Walt Disney</item>
+        <item>Life is what happens when you\'re busy making other plans. -John Lennon</item>
+        <item>The future belongs to those who believe in the beauty of their dreams. -Eleanor Roosevelt</item>
+        <item>Whoever is happy will make others happy too. -Anne Frank</item>
+    </string-array>
+</resources>
+

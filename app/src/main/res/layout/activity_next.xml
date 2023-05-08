@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".nextAct">
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center">
+        <TextView
+            android:id="@+id/Qtext2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/ghostWhite"
+            android:background="@color/purple_200"
+            android:layout_gravity="center"
+            android:textSize="18sp">
+
+        </TextView>
+
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sharebtn"
+            android:text="SHARE"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginRight="30dp">
+
+        </Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/copybtn"
+            android:text="COPY"
+            android:backgroundTint="@color/teal_200"
+            android:layout_marginLeft="30dp">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
